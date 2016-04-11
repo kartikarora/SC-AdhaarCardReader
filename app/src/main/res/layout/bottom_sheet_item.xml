@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+    tools:context="me.kartikarora.aadharcardreader.DetailActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/name_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:id="@+id/name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            tools:text="Test Singh"
+            android:clickable="false" />
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/uid_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="12dp"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="20sp"
+        tools:text="UID: 998977833882882" />
+
+    <TextView
+        android:id="@+id/yob_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="12dp"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="20sp"
+        tools:text="Year of Birth: 1990" />
+
+    <TextView
+        android:id="@+id/gender_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="12dp"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="20sp"
+        tools:text="Gender: Male" />
+
+    <TextView
+        android:id="@+id/address_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="2dp"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="12dp"
+        android:textColor="@android:color/primary_text_light"
+        android:textSize="20sp"
+        tools:text="Address: C/O Untested Singh, H.N-5, Balle Balle Colony, Delhi, 110011" />
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Aadhar Card Reader</string>
+    <string name="title_activity_scanner">Scan Card</string>
+    <string name="no_cards_to_show">No cards to show</string>
+</resources>
